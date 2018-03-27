@@ -1,13 +1,12 @@
 {
-  "name": "orbuculum",
+  "name": "isomorphic",
   "version": "1.0.0",
-  "description": "Orbuculum App",
+  "description": "Isomorphic App",
   "main": "index.js",
   "scripts": {
     "build": "next build",
-    "start": "node server.js",
-    "dev": "node serverTest.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node serverTest.js",
+    "dev": "next build && node serverTest.js"
   },
   "author": "Ayush Gupta",
   "license": "ISC",
