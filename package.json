@@ -6,7 +6,8 @@
   "scripts": {
     "build": "next build",
     "start": "node serverTest.js",
-    "dev": "next build && node serverTest.js"
+    "dev": "next build && node serverTest.js",
+	"heroku-postbuild": "next build"
   },
   "author": "Ayush Gupta",
   "license": "ISC",
